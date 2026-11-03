@@ -45,9 +45,6 @@ The `Windows desktop release` workflow runs manually or when you push a tag like
 - `.github/workflows/`: Windows build and GitHub Pages deployment
 - `tests/`: algorithm tests
 
-## Responsible use
-The result-selection dropdown intentionally supports choosing a specific winner for testing and organizer-controlled demonstrations. **That mode is not random**. Use the Random mode for a fair draw and disclose nonrandom selection where fairness is expected.
-
 ## Audio rights
 The applause file was supplied by the project owner. Before publicly redistributing the app, verify the right to redistribute the supplied recording, and retain any attribution the original license requires.
 

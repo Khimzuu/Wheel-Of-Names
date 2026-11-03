@@ -72,7 +72,3 @@ The applause file was supplied by the project owner. Before publicly redistribut
 - Confetti starts automatically when a winner is announced, remains visible for several seconds, and is cleared when the popup closes.
 - When updating source files for GitHub Pages, run `npm run sync:web`. The Pages workflow does this for you.
 
-## Settings access (v2.4)
-
-The gear icon opens ordinary settings (names, removal, and related options). Result mode is not shown there. Press **Ctrl+Shift+H** to open the additional selection controls. The shortcut also works while the ordinary settings dialog is open. Saving ordinary settings preserves the previously configured selection, unless that name is removed from the entries.
-

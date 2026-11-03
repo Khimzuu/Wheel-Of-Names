@@ -4,7 +4,7 @@ Desktop (Electron) and browser app with a minimalist purple dark/light interface
 
 ## Features
 - Add 2–1,000 entries (each nonempty line = one person; full names count once).
-- Unbiased random picker (crypto-based when available), or manual result mode in Settings.
+- Unbiased random picker (crypto-based when available).
 - Variable landing point inside the selected sector, with 12% clearance from edges.
 - Optional automatic winner removal, plus **Close** and **Remove** announcement buttons.
 - Winner history preserved in browser storage until Reset. Reset clears history, **not** the participants.

@@ -11,28 +11,6 @@ Desktop (Electron) and browser app with a minimalist purple dark/light interface
 - Dark by default, optional light theme, audio mute, spinning clicks, confetti and a 7-second local applause clip.
 - The original multi-file application source and a deployable browser build in `site/`.
 
-## Start desktop app
-Requires Node.js 22+ (LTS recommended) and npm.
-
-```sh
-npm install
-npm start
-```
-
-## Windows executable
-
-```sh
-npm run dist:win
-```
-
-Successful builds put an installer and a portable `.exe` into `dist/`. Building on Windows is recommended.
-
-## Website
-Publish `site/` to any static hosting service. GitHub Pages deployment runs from GitHub Actions on pushes to `main`, after you enable **GitHub Pages → Build and deployment → GitHub Actions** in repository settings. `site/index.html` works as the web entry point, and needs the adjacent `src/` and `assets/` folders.
-
-## GitHub automated releases
-The `Windows desktop release` workflow runs manually or when you push a tag like `v2.0.0`. It builds Windows binaries, uploads artifacts, and creates a GitHub release for tags. Repository Actions permissions must allow releases.
-
 ## Project structure
 - `index.html`: Electron/browser entry point
 - `src/styles/main.css`: theme, layout, popup and animations
